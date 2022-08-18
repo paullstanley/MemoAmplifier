@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G72" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EmployeeEntity" representedClassName="EmployeeMO" syncable="YES">
+        <attribute name="email_address" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="job_role" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="name" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="schedule" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="site_location" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="slack_url" optional="YES" attributeType="String" defaultValueString=""/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="MessageUseCaseEntity" representedClassName="MessageUseCaseMO" syncable="YES">
+        <attribute name="key" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String" defaultValueString=""/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="key"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="MessageUseCaseEntity" positionX="-63" positionY="-18" width="128" height="59"/>
+        <element name="EmployeeEntity" positionX="-63" positionY="0" width="128" height="134"/>
+    </elements>
+</model>
