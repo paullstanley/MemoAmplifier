@@ -22,10 +22,8 @@ extension NSManagedObjectContext {
     func saveIfNeeded() {
      //   if hasChanges {
             do {
-                print("IIIIIIIIIIIIIII")
                 try save()
             } catch {
-                print("FUUUUUUCK")
                 rollback()
             }
        // }
