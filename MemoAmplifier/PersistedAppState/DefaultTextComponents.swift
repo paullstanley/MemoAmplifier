@@ -30,7 +30,7 @@ struct DefaultTextComponents {
         "CB_AT_DC.Left Voicemail": "\(actionTakenWrapperText)  We attempted to reach out to your customer at the number listed in Core, but were unable to get in touch. We left a voicemail stating that the owning employee is unavailable and provided support options if immediate assistance is needed",
         "CB_AT_DC.Customer Will Wait for Employee": "\(actionTakenWrapperText) We have successfully reached out to the customer. The customer stated they would like to continue to work with the owning employee on this case and will await follow up",
         "CB_AT_DC.Customer Will Call Back Later": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer will call back in to the main number and have the case re-escalated to another Senior Employee at a later time. The Commitments Team provided the customer with support options if immediate assistance is needed",
-        "CB_AT_DC.Customer Resolved Issue": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer indicated that the issue is resolved and no further contact from Apple is needed",
+        "CB_AT_DC.Customer Resolved Issue": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer indicated that the issue is resolved and no further contact from us is needed",
         //MARK: CALLBACK - ACTION TAKEN - DID NOT  CALL
         "CB_AT_NC.Customer Called Back in": "\(actionTakenWrapperText) Customer Called Back in",
         "CB_AT_NC.Incorrect Contact Info": "\(actionTakenWrapperText) Incorrect Contact Info",
@@ -52,10 +52,10 @@ struct DefaultTextComponents {
         "EMAIL_AT_DC.Left Voicemail": "\(actionTakenWrapperText) We attempted to reach out to your customer at the number listed in Core, but were unable to get in touch. We left a voicemail stating that the owning employee is unavailable and provided support options if immediate assistance is needed",
         "EMAIL_AT_DC.Customer Will Wait for Employee": "\(actionTakenWrapperText) We have successfully reached out to the customer. The customer stated they would like to continue to work with the owning employee on this case and will await follow up",
         "EMAIL_AT_DC.Customer Will Call Back Later": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer will call back in to the main number and have the case re-escalated to another Senior Employee at a later time. The Commitments Team provided the customer with support options if immediate assistance is needed",
-        "EMAIL_AT_DC.Customer Resolved Issue": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer indicated that the issue is resolved and no further contact from Apple is needed",
+        "EMAIL_AT_DC.Customer Resolved Issue": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer indicated that the issue is resolved and no further contact from us is needed",
         //MARK: EMAIL - ACTION TAKEN - DID NOT  CALL
         "EMAIL_AT_NC.Employee Available": "\(actionTakenWrapperText) None - awaiting employee response",
-        "EMAIL_AT_NC.Customer Called Back in": "\(actionTakenWrapperText) We reviewed the case in Core and determined that no customer contact by the SPS Commitment Team was necessary. Customer has contacted AppleCare and continued the case with another Senior Employee.",
+        "EMAIL_AT_NC.Customer Called Back in": "\(actionTakenWrapperText) We reviewed the case in Core and determined that no customer contact by the SPS Commitment Team was necessary. Customer has contacted us and continued the case with another Senior Employee.",
         "EMAIL_AT_NC.Emailed Customer": "\(actionTakenWrapperText) ",
         "EMAIL_AT_NC.Existing Actioned Commitment": "\(actionTakenWrapperText) We reviewed the email and determined that no customer contact by the SPS Commitments Team was necessary. The email left by the customer corresponds to a engagement on the same case, that was actioned by the SPS Commitments Team.",
         "EMAIL_AT_NC.Incorrect Contact Info": "\(actionTakenWrapperText) The info provided was incorrect",
@@ -77,7 +77,7 @@ struct DefaultTextComponents {
         "MESSAGE_AT_DC.Left Voicemail": "\(actionTakenWrapperText) We attempted to reach out to your customer at the number listed in Core, but were unable to get in touch. We left a voicemail stating that the owning employee is unavailable and provided support options if immediate assistance is needed",
         "MESSAGE_AT_DC.Customer Will Wait for Employee": "\(actionTakenWrapperText) We have successfully reached out to the customer. The customer stated they would like to continue to work with the owning employee on this case and will await follow up",
         "MESSAGE_AT_DC.Customer Will Call Back Later": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer will call back in to the main number and have the case re-escalated to another Senior Employee at a later time. The Commitments Team provided the customer with support options if immediate assistance is needed",
-        "MESSAGE_AT_DC.Customer Resolved Issue": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer indicated that the issue is resolved and no further contact from Apple is needed",
+        "MESSAGE_AT_DC.Customer Resolved Issue": "\(actionTakenWrapperText) We have successfully reached out to your customer. The customer indicated that the issue is resolved and no further contact from us is needed",
         //MARK: MESSAGE - ACTION TAKEN - DID NOT  CALL
         "MESSAGE_AT_NC.Employee Available": "\(actionTakenWrapperText) Employee available",
         "MESSAGE_AT_NC.Customer Called Back in": "\(actionTakenWrapperText) The customer called back in",
