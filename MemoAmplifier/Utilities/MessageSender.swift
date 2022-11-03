@@ -30,11 +30,6 @@ class MessageSender: NSObject {
         
         Thank you,
         \(AppState.shared.USER_FIRST_NAME) \(AppState.shared.USER_LAST_NAME)
-        SPS Commitments Team
-        
-        APPLE INTERNAL USE ONLY.
-        
-        Check out our Gather page: https://gather.corp.apple.com/community/sps/sps-commitments
         
         """])
     }
